@@ -4,8 +4,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
+}
+
+header, footer {
+    background-color: #0000aa;
 }
 
 #banner {
-    background-color: blue;
+    background-color: #0099EE;
+}
+
+#empresa {
+    background-color: #0066ee;
+}
+
+#produtos {
+    background-color: #0033ee;
+}
+
+.produtos__itens img {
+    width: 150px;
+}
+
+#acessorios {
+    background-color: #0000ee;
 }
