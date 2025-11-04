@@ -7,8 +7,19 @@
     color: #fff;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 header, footer {
     background-color: #0000aa;
+}
+
+nav {
+    position: fixed;
+    top: 0;
 }
 
 #banner {
