@@ -44,6 +44,8 @@ header, footer {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    max-width: 900px;
+    min-width: 850px;
 }
 
 #produtos__box a {
