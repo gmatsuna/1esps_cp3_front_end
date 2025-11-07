@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
+    color: #fff;
+    scroll-behavior: smooth;
+=======
+>>>>>>> 0fc7c4fb11b58594d685180b3557107ad8d1a6f6
 }
 
 body {
@@ -19,8 +24,28 @@ body {
 
 header, footer {
     background-color: #0000aa;
+    border: 2px solid red;
 }
 
+<<<<<<< HEAD
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+
+    nav {
+        box-shadow: 1px 1px 1 px #00000070;
+        /* position: fixed;
+        top: 0; */
+
+        ul {
+        display: flex;
+        justify-content: flex-end;
+        
+        li {
+            padding: 5px 0;
+            margin: 5px 20px;
+=======
 header nav {
     width: 100%;
     box-shadow: 1px 1px 5px #00000070;
@@ -31,6 +56,7 @@ header nav {
 
         li { 
             padding: 5px;
+>>>>>>> 0fc7c4fb11b58594d685180b3557107ad8d1a6f6
             list-style: none;
 
             a {
@@ -41,8 +67,13 @@ header nav {
             }
         }
     }
+<<<<<<< HEAD
+    }
+=======
     
+>>>>>>> 0fc7c4fb11b58594d685180b3557107ad8d1a6f6
 }
+
 
 #banner {
     background-image: url("../images/images\ \(1\).jpg");
@@ -76,6 +107,41 @@ header nav {
 #empresa__box {
     display: flex;
     align-items: stretch;
+<<<<<<< HEAD
+    justify-content: center;
+    gap: 40px;
+    margin: 70px;
+}
+
+#empresa__box img {
+    width: 400px;
+    border-radius: 0 80px 0 80px;
+    border: 2px solid red;
+}
+.empresas__img {display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid #fff;
+    gap: 50px;
+}
+
+#empresa__text {
+    border: 2px solid red;
+    text-align: left;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#empresa__text h3 {
+    margin-bottom: 10px;
+}
+
+#empresa__text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+=======
 }
 
 .empresas__img img {
@@ -99,6 +165,7 @@ header nav {
 #empresa__text p {
     font-size: 20px;
     margin-bottom: 15px;
+>>>>>>> 0fc7c4fb11b58594d685180b3557107ad8d1a6f6
 }
 
 #produtos {
