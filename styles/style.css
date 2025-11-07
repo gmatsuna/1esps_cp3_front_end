@@ -79,12 +79,10 @@ header {
     background-color: #0066ee;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 
     h1 {
         font-size: 95px;
         padding: 25px;
-        border: 2px solid red;
     }
 }
 
@@ -92,23 +90,19 @@ header {
     display: flex;
     justify-content: space-evenly;
     margin: 70px;
-    border: 2px solid rgb(141, 230, 59);
 }
 
 .empresas__img {display: flex;
     flex-direction: column;
-    border: 2px solid #fff;
     gap: 70px;
 }
 
 #empresa__box img {
     width: 600px;
     border-radius: 0 80px 0 80px;
-    border: 2px solid rgb(141, 230, 59);
 }
 
 #empresa__text {
-    border: 2px solid red;
     text-align: left;
     display: flex;
     flex-direction: column;
