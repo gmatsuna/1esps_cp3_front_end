@@ -4,16 +4,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     color: #fff;
     scroll-behavior: smooth;
+=======
+>>>>>>> 0fc7c4fb11b58594d685180b3557107ad8d1a6f6
 }
 
 body {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #fff;
 }
 
 header, footer {
@@ -21,6 +27,7 @@ header, footer {
     border: 2px solid red;
 }
 
+<<<<<<< HEAD
 header {
     width: 100vw;
     display: flex;
@@ -38,65 +45,68 @@ header {
         li {
             padding: 5px 0;
             margin: 5px 20px;
+=======
+header nav {
+    width: 100%;
+    box-shadow: 1px 1px 5px #00000070;
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+
+        li { 
+            padding: 5px;
+>>>>>>> 0fc7c4fb11b58594d685180b3557107ad8d1a6f6
             list-style: none;
-            
+
             a {
                 color: #fff;
                 text-decoration: none;
                 font-size: 22px;
-                display: block;
-                padding: 10px 25 px;
-                width: 100%;
+                padding: 10px 25px;
             }
         }
     }
+<<<<<<< HEAD
     }
+=======
+    
+>>>>>>> 0fc7c4fb11b58594d685180b3557107ad8d1a6f6
 }
 
 
 #banner {
     background-image: url("../images/images\ \(1\).jpg");
     background-size: cover;
-    background-position: center;
-    height: 450px;
+    height: 600px;
     display: flex;
-    flex-direction: column;
-    z-index: -1;
+    align-items: center;
     padding: 70px;
-}
-
-.banner__texto {
-    padding: 10px;
-    gap: 10px;
-}
-
-.banner__texto h1 {
-    font-size: 120px;  
-}
-
-.banner__texto h2 {
-    font-size: 50px;
-}
-
-.banner__texto h3 {
-    font-size: 30px;
 }
 
 #banner img { 
-    width: 150px;
+    width: 250px;
 }
+
+.banner__texto {
+    font-size: 45px;
+    margin-left: 30px;
+    /* color: #0000aa; */
+}
+
 
 #empresa {
     background-color: #0066ee;
-    display: flex;
-    flex-direction: column;
-    padding: 70px;
-    border: 2px solid red;
+
+    h1 {
+        font-size: 85px;
+    }
 }
 
 #empresa__box {
     display: flex;
     align-items: stretch;
+<<<<<<< HEAD
     justify-content: center;
     gap: 40px;
     margin: 70px;
@@ -130,20 +140,81 @@ header {
 #empresa__text p {
     margin-bottom: 20px;
     line-height: 1.6;
+=======
+}
+
+.empresas__img img {
+    width: 550px;
+}
+
+#empresa__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    margin-left: 50px;
+}
+
+#empresa__text h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+#empresa__text p {
+    font-size: 20px;
+    margin-bottom: 15px;
+>>>>>>> 0fc7c4fb11b58594d685180b3557107ad8d1a6f6
 }
 
 #produtos {
     background-color: #0033ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#produtos__box {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 900px;
+    min-width: 850px;
+}
+
+#produtos__box a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 150px;
+    margin: 15px;
+}
+
+.produtos__itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 0 30px;
+    box-shadow: 2px 2px 5px #000000;
+    max-width: 150px;
+    padding: 15px;
 }
 
 .produtos__itens img {
     width: 150px;
+    border-radius: 5px;
 }
 
-#produtos__box {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    min-width: 900px;
-    max-width: 950px;
+.produtos__itens p {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    color: #000000;
 }
