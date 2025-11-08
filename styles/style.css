@@ -193,3 +193,75 @@ header {
     padding: 5px;
     color: #000000;
 }
+
+#catalogo_produtos {
+  background-color: #001155;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 0;
+}
+
+#catalogo_produtos .produto {
+  background-color: #0033ee;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #0008;
+  flex: 1 1 calc(45% - 40px);
+  max-width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#catalogo_produtos .produto:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 20px #000a;
+}
+
+#catalogo_produtos .produto img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+#catalogo_produtos .produto h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#catalogo_produtos .produto p {
+  font-size: 16px;
+  color: #e0e0e0;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+#catalogo_produtos .produto .preco {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff200;
+  margin-bottom: 12px;
+}
+
+#catalogo_produtos .produto button {
+  background-color: #00cc44;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#catalogo_produtos .produto button:hover {
+  background-color: #00aa38;
+}
