@@ -265,3 +265,156 @@ header {
 #catalogo_produtos .produto button:hover {
   background-color: #00aa38;
 }
+
+#catalogo_acessorios {
+  background-color: #000b33; /* cor mais escura */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 0;
+}
+
+#catalogo_acessorios .produto {
+  background-color: #002288;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #0008;
+  max-width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#catalogo_acessorios .produto:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 20px #000a;
+}
+
+#catalogo_acessorios .produto img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+#catalogo_acessorios .produto h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#catalogo_acessorios .produto p {
+  font-size: 16px;
+  color: #e0e0e0;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+#catalogo_acessorios .produto .preco {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff200;
+  margin-bottom: 12px;
+}
+
+#catalogo_acessorios .produto button {
+  background-color: #00cc44;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#catalogo_acessorios .produto button:hover {
+  background-color: #00aa38;
+}
+
+.cores {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0 15px 0;
+}
+
+.cor {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.cor:hover {
+  transform: scale(1.1);
+  border-color: #ff0;
+}
+
+.cor.selecionada {
+  border-color: #00ff44;
+  transform: scale(1.15);
+}
+
+.titulo__catalogo {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 8px #0008;
+}
+
+footer {
+  background-color: #0000aa;
+  color: #fff;
+  width: 100%;
+  padding: 40px 20px 10px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.footer__container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffdd00;
+}
+
+.footer__container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer__social img {
+  width: 28px;
+  height: 28px;
+}
+
+.footer__copy {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 15px;
+}
