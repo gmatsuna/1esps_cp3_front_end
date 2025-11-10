@@ -60,7 +60,8 @@ header {
     width: 100vw;
     height: 600px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: start;
     padding: 70px;
 }
 
@@ -69,16 +70,25 @@ header {
 }
 
 .banner__texto {
-  /* background-color: #0000aa; */
-    font-size: 45px;
-    margin-left: 30px;
-    /* opacity: 0.5; */
+    margin: 50px;
+    /* background-color: #4970fd; */
 }
 
 .banner__texto * {
-  color: #fff;
-  /* color: #f5ff9c; */
+  color: #f2ff7c;
   font-weight: 900;
+}
+
+.banner__texto h1 {
+  font-size: 80px;
+}
+
+.banner__texto h2 {
+  font-size: 50px;
+}
+
+.banner__texto h3 {
+  font-size: 35px;
 }
 
 #empresa {
@@ -185,6 +195,11 @@ header {
     box-shadow: 2px 2px 5px #000000;
     max-width: 150px;
     padding: 15px;
+}
+
+.produtos__itens:hover {
+  transform: scale(1.1);
+  transform-style: preserve-3d;
 }
 
 .produtos__itens img {
