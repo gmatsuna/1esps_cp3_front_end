@@ -53,7 +53,7 @@ header {
 }
 
 #banner {
-    background-image: url("../images/images_01.jpg");
+    background-image: url("../images/vivo-empresa-logo.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -69,11 +69,17 @@ header {
 }
 
 .banner__texto {
+  /* background-color: #0000aa; */
     font-size: 45px;
     margin-left: 30px;
-    /* color: #0000aa; */
+    /* opacity: 0.5; */
 }
 
+.banner__texto * {
+  color: #fff;
+  /* color: #f5ff9c; */
+  font-weight: 900;
+}
 
 #empresa {
     background-color: #0066ee;
